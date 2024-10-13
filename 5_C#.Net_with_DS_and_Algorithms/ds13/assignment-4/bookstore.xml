@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bookstore>
+  <Book>
+    <Title>Book 1</Title>
+    <Author>John Doe</Author>
+    <Price>880</Price>
+  </Book>
+  <Book>
+    <Title>Book 2</Title>
+    <Author>Jane Doe</Author>
+    <Price>800</Price>
+  </Book>
+  <Book>
+    <Title>Book 3</Title>
+    <Author>John Doe</Author>
+    <Price>104</Price>
+  </Book>
+</Bookstore>
