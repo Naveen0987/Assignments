@@ -1,0 +1,14 @@
+/media/naveen/Secondary/Dotnet/ds4/assignment-2/bin/Debug/net8.0/assignment-2
+/media/naveen/Secondary/Dotnet/ds4/assignment-2/bin/Debug/net8.0/assignment-2.deps.json
+/media/naveen/Secondary/Dotnet/ds4/assignment-2/bin/Debug/net8.0/assignment-2.runtimeconfig.json
+/media/naveen/Secondary/Dotnet/ds4/assignment-2/bin/Debug/net8.0/assignment-2.dll
+/media/naveen/Secondary/Dotnet/ds4/assignment-2/bin/Debug/net8.0/assignment-2.pdb
+/media/naveen/Secondary/Dotnet/ds4/assignment-2/obj/Debug/net8.0/assignment-2.GeneratedMSBuildEditorConfig.editorconfig
+/media/naveen/Secondary/Dotnet/ds4/assignment-2/obj/Debug/net8.0/assignment-2.AssemblyInfoInputs.cache
+/media/naveen/Secondary/Dotnet/ds4/assignment-2/obj/Debug/net8.0/assignment-2.AssemblyInfo.cs
+/media/naveen/Secondary/Dotnet/ds4/assignment-2/obj/Debug/net8.0/assignment-2.csproj.CoreCompileInputs.cache
+/media/naveen/Secondary/Dotnet/ds4/assignment-2/obj/Debug/net8.0/assignment-2.dll
+/media/naveen/Secondary/Dotnet/ds4/assignment-2/obj/Debug/net8.0/refint/assignment-2.dll
+/media/naveen/Secondary/Dotnet/ds4/assignment-2/obj/Debug/net8.0/assignment-2.pdb
+/media/naveen/Secondary/Dotnet/ds4/assignment-2/obj/Debug/net8.0/assignment-2.genruntimeconfig.cache
+/media/naveen/Secondary/Dotnet/ds4/assignment-2/obj/Debug/net8.0/ref/assignment-2.dll
