@@ -1,0 +1,63 @@
+@model EmployeeManagement.Models.Employee
+
+<h2>Edit Employee</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div>
+        <label>First Name:</label>
+        <input asp-for="FirstName" />
+        <span asp-validation-for="FirstName"></span>
+    </div>
+    <div>
+        <label>Middle Name:</label>
+        <input asp-for="MiddleName" />
+        <span asp-validation-for="MiddleName"></span>
+    </div>
+    <div>
+        <label>Last Name:</label>
+        <input asp-for="LastName" />
+        <span asp-validation-for="LastName"></span>
+    </div>
+    <div>
+        <label>Email:</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div>
+        <label>Phone Number:</label>
+        <input asp-for="PhoneNumber" />
+        <span asp-validation-for="PhoneNumber"></span>
+    </div>
+    <div>
+        <label>Salary:</label>
+        <input asp-for="Salary" />
+        <span asp-validation-for="Salary"></span>
+    </div>
+    <div>
+        <label>Address:</label>
+        <input asp-for="Address" />
+        <span asp-validation-for="Address"></span>
+    </div>
+    <div>
+        <label>Country:</label>
+        <input asp-for="Country" />
+        <span asp-validation-for="Country"></span>
+    </div>
+    <div>
+        <label>Age:</label>
+        <input asp-for="Age" />
+        <span asp-validation-for="Age"></span>
+    </div>
+    <div>
+        <label>Date of Birth:</label>
+        <input asp-for="DateOfBirth" type="date" />
+        <span asp-validation-for="DateOfBirth"></span>
+    </div>
+
+    <button type="submit">Save Changes</button>
+</form>
+
+<div>
+    <a asp-action="Index">Cancel</a>
+</div>
