@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="MyAvaloniaApp.MainWindow"
+        Title="User Form"
+        Width="400" Height="400">
+
+    <StackPanel Margin="10">
+        <!-- First Name -->
+        <TextBox Name="txtFirstName" Watermark="First Name" Margin="0,5"/>
+        <!-- Middle Name -->
+        <TextBox Name="txtMiddleName" Watermark="Middle Name" Margin="0,5"/>
+        <!-- Last Name -->
+        <TextBox Name="txtLastName" Watermark="Last Name" Margin="0,5"/>
+        <!-- Age -->
+        <TextBox Name="txtAge" Watermark="Age" Margin="0,5"/>
+        <!-- Date of Birth -->
+        <DatePicker Name="dpDob" Margin="0,5"/>
+        <!-- Country -->
+        <ComboBox Name="cmbCountry" Margin="0,5">
+            <ComboBoxItem Content="United States"/>
+            <ComboBoxItem Content="Canada"/>
+            <ComboBoxItem Content="United Kingdom"/>
+            <ComboBoxItem Content="Australia"/>
+        </ComboBox>
+        <!-- Validation Message -->
+        <TextBlock Name="lblValidationMessage" Foreground="Red" Margin="0,5"/>
+        <!-- Submit Button -->
+        <Button Content="Submit" Click="OnSubmitClicked" Margin="0,10"/>
+    </StackPanel>
+</Window>

@@ -1,0 +1,4 @@
+CREATE TABLE Department (
+  DeptId INT PRIMARY KEY,
+  Name VARCHAR(255)
+);
