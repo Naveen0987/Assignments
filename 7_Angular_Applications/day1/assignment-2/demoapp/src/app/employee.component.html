@@ -1,0 +1,32 @@
+<div class="container">
+    <h1>Employee Data</h1>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>DOB</th>
+          <th>Age</th>
+          <th>Department</th>
+          <th>Role</th>
+          <th>Salary</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let employee of employees">
+          <td>{{ employee.id }}</td>
+          <td>{{ employee.name }}</td>
+          <td>{{ employee.dob | date }}</td>
+          <td>{{ employee.age }}</td>
+          <td>{{ employee.department }}</td>
+          <td>{{ employee.role }}</td>
+          <td>{{ employee.salary }}</td>
+          <td>
+            <button class="btn btn-info" (click)="editEmployee(employee)">Edit</button>
+            <button class="btn btn-danger" (click)="deleteEmployee(employee.id)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button class="btn btn-primary" routerLink="/add-employee">Add Employee
