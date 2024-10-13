@@ -1,0 +1,10 @@
+<!-- src/app/employee-list/employee-list.component.html -->
+<div>
+    <h2>Employee List</h2>
+    <ul>
+      <li *ngFor="let employee of employees">
+        {{ employee.firstName }} {{ employee.lastName }} - Age: {{ employee.age }} - Salary: {{ employee.salary }} - Gender: {{ employee.gender }} - Country: {{ employee.country }}
+      </li>
+    </ul>
+  </div>
+  

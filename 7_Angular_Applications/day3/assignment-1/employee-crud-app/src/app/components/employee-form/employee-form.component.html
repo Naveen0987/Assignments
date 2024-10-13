@@ -1,0 +1,41 @@
+<!-- src/app/employee-form/employee-form.component.html -->
+<div>
+    <h2>Add Employee</h2>
+    <form (ngSubmit)="addEmployee()">
+      <div>
+        <label>First Name:</label>
+        <input [(ngModel)]="employee.firstName" name="firstName" required />
+      </div>
+      <div>
+        <label>Middle Name:</label>
+        <input [(ngModel)]="employee.middleName" name="middleName" />
+      </div>
+      <div>
+        <label>Last Name:</label>
+        <input [(ngModel)]="employee.lastName" name="lastName" required />
+      </div>
+      <div>
+        <label>Age:</label>
+        <input type="number" [(ngModel)]="employee.age" name="age" required />
+      </div>
+      <div>
+        <label>Salary:</label>
+        <input type="number" [(ngModel)]="employee.salary" name="salary" required />
+      </div>
+      <div>
+        <label>Gender:</label>
+        <select [(ngModel)]="employee.gender" name="gender" required>
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <div>
+        <label>Country:</label>
+        <input [(ngModel)]="employee.country" name="country" required />
+      </div>
+      <button type="submit">Add Employee</button>
+      <div *ngIf="errorMessage" style="color:red;">{{ errorMessage }}</div>
+    </form>
+  </div>
+  

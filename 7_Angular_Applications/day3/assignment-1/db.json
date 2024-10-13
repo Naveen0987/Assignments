@@ -1,0 +1,25 @@
+{
+    "employees": [
+      {
+        "id": 1,
+        "firstName": "John",
+        "middleName": "A.",
+        "lastName": "Doe",
+        "age": 30,
+        "salary": 50000,
+        "gender": "Male",
+        "country": "USA"
+      },
+      {
+        "id": 2,
+        "firstName": "Jane",
+        "middleName": "B.",
+        "lastName": "Smith",
+        "age": 28,
+        "salary": 55000,
+        "gender": "Female",
+        "country": "Canada"
+      }
+    ]
+  }
+  
