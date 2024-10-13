@@ -1,0 +1,14 @@
+/media/naveen/Secondary/Dotnet/testing/bin/Debug/net8.0/testing
+/media/naveen/Secondary/Dotnet/testing/bin/Debug/net8.0/testing.deps.json
+/media/naveen/Secondary/Dotnet/testing/bin/Debug/net8.0/testing.runtimeconfig.json
+/media/naveen/Secondary/Dotnet/testing/bin/Debug/net8.0/testing.dll
+/media/naveen/Secondary/Dotnet/testing/bin/Debug/net8.0/testing.pdb
+/media/naveen/Secondary/Dotnet/testing/obj/Debug/net8.0/testing.GeneratedMSBuildEditorConfig.editorconfig
+/media/naveen/Secondary/Dotnet/testing/obj/Debug/net8.0/testing.AssemblyInfoInputs.cache
+/media/naveen/Secondary/Dotnet/testing/obj/Debug/net8.0/testing.AssemblyInfo.cs
+/media/naveen/Secondary/Dotnet/testing/obj/Debug/net8.0/testing.csproj.CoreCompileInputs.cache
+/media/naveen/Secondary/Dotnet/testing/obj/Debug/net8.0/testing.dll
+/media/naveen/Secondary/Dotnet/testing/obj/Debug/net8.0/refint/testing.dll
+/media/naveen/Secondary/Dotnet/testing/obj/Debug/net8.0/testing.pdb
+/media/naveen/Secondary/Dotnet/testing/obj/Debug/net8.0/testing.genruntimeconfig.cache
+/media/naveen/Secondary/Dotnet/testing/obj/Debug/net8.0/ref/testing.dll
