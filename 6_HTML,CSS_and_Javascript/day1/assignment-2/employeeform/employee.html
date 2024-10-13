@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Table</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <h4>Employee(s)</h4>
+        </div>
+        <div class="card-body">
+            <button class="btn btn-primary mb-3" data-toggle="modal" data-target="#employeeModal" onclick="resetForm()">Create</button>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Sr No</th>
+                        <th>Name</th>
+                        <th>Email Id</th>
+                        <th>Action(s)</th>
+                    </tr>
+                </thead>
+                <tbody id="employeeTableBody">
+                    <tr id="row1">
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>johndoe@example.com</td>
+                        <td>
+                            <button class="btn btn-primary btn-sm" onclick="editEmployee(1)">Edit</button>
+                            <button class="btn btn-info btn-sm" onclick="viewEmployee(1)">View</button>
+                            <button class="btn btn-danger btn-sm" onclick="deleteEmployee(1)">Delete</button>
+                        </td>
+                    </tr>
+                    <tr id="row2">
+                        <td>2</td>
+                        <td>Jane Smith</td>
+                        <td>janesmith@example.com</td>
+                        <td>
+                            <button class="btn btn-primary btn-sm" onclick="editEmployee(2)">Edit</button>
+                            <button class="btn btn-info btn-sm" onclick="viewEmployee(2)">View</button>
+                            <button class="btn btn-danger btn-sm" onclick="deleteEmployee(2)">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Employee Modal -->
+<div class="modal fade" id="employeeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle">Create Employee</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="employeeForm">
+          <div class="form-group">
+            <label for="employeeName">Name</label>
+            <input type="text" class="form-control" id="employeeName" placeholder="Enter name" required>
+          </div>
+          <div class="form-group">
+            <label for="employeeEmail">Email address</label>
+            <input type="email" class="form-control" id="employeeEmail" placeholder="Enter email" required>
+          </div>
+          <input type="hidden" id="employeeId">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="saveButton" onclick="saveEmployee()">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    let employeeCount = 2; // To track employee IDs
+
+    function resetForm() {
+        document.getElementById('modalTitle').innerText = 'Create Employee';
+        document.getElementById('employeeName').value = '';
+        document.getElementById('employeeEmail').value = '';
+        document.getElementById('employeeId').value = '';
+    }
+
+    function saveEmployee() {
+        const name = document.getElementById('employeeName').value;
+        const email = document.getElementById('employeeEmail').value;
+        const id = document.getElementById('employeeId').value;
+
+        if (name === '' || email === '') {
+            alert('Please fill all fields');
+            return;
+        }
+
+        if (id) {
+            // Edit existing employee
+            document.querySelector(`#row${id} td:nth-child(2)`).innerText = name;
+            document.querySelector(`#row${id} td:nth-child(3)`).innerText = email;
+        } else {
+            // Add new employee
+            employeeCount++;
+            const newRow = `
+                <tr id="row${employeeCount}">
+                    <td>${employeeCount}</td>
+                    <td>${name}</td>
+                    <td>${email}</td>
+                    <td>
+                        <button class="btn btn-primary btn-sm" onclick="editEmployee(${employeeCount})">Edit</button>
+                        <button class="btn btn-info btn-sm" onclick="viewEmployee(${employeeCount})">View</button>
+                        <button class="btn btn-danger btn-sm" onclick="deleteEmployee(${employeeCount})">Delete</button>
+                    </td>
+                </tr>`;
+            document.getElementById('employeeTableBody').insertAdjacentHTML('beforeend', newRow);
+        }
+        $('#employeeModal').modal('hide');
+    }
+
+    function editEmployee(id) {
+        const name = document.querySelector(`#row${id} td:nth-child(2)`).innerText;
+        const email = document.querySelector(`#row${id} td:nth-child(3)`).innerText;
+
+        document.getElementById('modalTitle').innerText = 'Edit Employee';
+        document.getElementById('employeeName').value = name;
+        document.getElementById('employeeEmail').value = email;
+        document.getElementById('employeeId').value = id;
+
+        $('#employeeModal').modal('show');
+    }
+
+    function viewEmployee(id) {
+        const name = document.querySelector(`#row${id} td:nth-child(2)`).innerText;
+        const email = document.querySelector(`#row${id} td:nth-child(3)`).innerText;
+        alert('Employee Details:\n\nName: ' + name + '\nEmail: ' + email);
+    }
+
+    function deleteEmployee(id) {
+        if (confirm('Are you sure you want to delete this employee?')) {
+            document.getElementById('row' + id).remove();
+        }
+    }
+</script>
+
+</body>
+</html>
