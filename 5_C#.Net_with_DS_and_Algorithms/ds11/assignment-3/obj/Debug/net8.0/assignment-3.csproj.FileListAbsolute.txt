@@ -1,0 +1,14 @@
+/media/naveen/Secondary/Dotnet/ds11/assignment-3/bin/Debug/net8.0/assignment-3
+/media/naveen/Secondary/Dotnet/ds11/assignment-3/bin/Debug/net8.0/assignment-3.deps.json
+/media/naveen/Secondary/Dotnet/ds11/assignment-3/bin/Debug/net8.0/assignment-3.runtimeconfig.json
+/media/naveen/Secondary/Dotnet/ds11/assignment-3/bin/Debug/net8.0/assignment-3.dll
+/media/naveen/Secondary/Dotnet/ds11/assignment-3/bin/Debug/net8.0/assignment-3.pdb
+/media/naveen/Secondary/Dotnet/ds11/assignment-3/obj/Debug/net8.0/assignment-3.GeneratedMSBuildEditorConfig.editorconfig
+/media/naveen/Secondary/Dotnet/ds11/assignment-3/obj/Debug/net8.0/assignment-3.AssemblyInfoInputs.cache
+/media/naveen/Secondary/Dotnet/ds11/assignment-3/obj/Debug/net8.0/assignment-3.AssemblyInfo.cs
+/media/naveen/Secondary/Dotnet/ds11/assignment-3/obj/Debug/net8.0/assignment-3.csproj.CoreCompileInputs.cache
+/media/naveen/Secondary/Dotnet/ds11/assignment-3/obj/Debug/net8.0/assignment-3.dll
+/media/naveen/Secondary/Dotnet/ds11/assignment-3/obj/Debug/net8.0/refint/assignment-3.dll
+/media/naveen/Secondary/Dotnet/ds11/assignment-3/obj/Debug/net8.0/assignment-3.pdb
+/media/naveen/Secondary/Dotnet/ds11/assignment-3/obj/Debug/net8.0/assignment-3.genruntimeconfig.cache
+/media/naveen/Secondary/Dotnet/ds11/assignment-3/obj/Debug/net8.0/ref/assignment-3.dll
