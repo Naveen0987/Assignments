@@ -1,0 +1,53 @@
+@model RecordApp.Models.Employee
+
+<h4>Are you sure you want to delete this?</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <dl class="row">
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Department)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Department)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Designation)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Designation)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Age)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Age)
+            </dd>
+        </dl>
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            <div class="form-actions">
+                <input type="submit" value="Delete" class="btn btn-danger" />
+                <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Confirmation Dialog Box -->
+<script>
+    $(document).ready(function () {
+        $("form").submit(function (event) {
+            var confirm_delete = confirm("Are you sure you want to delete this employee?");
+            if (!confirm_delete) {
+                event.preventDefault();
+            }
+        });
+    });
+</script>
