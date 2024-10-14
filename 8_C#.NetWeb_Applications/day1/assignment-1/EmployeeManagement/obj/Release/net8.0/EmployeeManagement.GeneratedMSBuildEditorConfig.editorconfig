@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EmployeeManagement
+build_property.RootNamespace = EmployeeManagement
+build_property.ProjectDir = C:\24NAG2219_U09\Assignments\8_C#.NetWeb_Applications\day1\assignment-1\EmployeeManagement\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\24NAG2219_U09\Assignments\8_C#.NetWeb_Applications\day1\assignment-1\EmployeeManagement
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/assignment-2/EmployeeManagement/Views/Employee/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXNzaWdubWVudC0yXEVtcGxveWVlTWFuYWdlbWVudFxWaWV3c1xFbXBsb3llZVxjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/assignment-2/EmployeeManagement/Views/Employee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXNzaWdubWVudC0yXEVtcGxveWVlTWFuYWdlbWVudFxWaWV3c1xFbXBsb3llZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/assignment-2/EmployeeManagement/Views/Employee/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXNzaWdubWVudC0yXEVtcGxveWVlTWFuYWdlbWVudFxWaWV3c1xFbXBsb3llZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/assignment-2/EmployeeManagement/Views/Employee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXNzaWdubWVudC0yXEVtcGxveWVlTWFuYWdlbWVudFxWaWV3c1xFbXBsb3llZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/assignment-2/EmployeeManagement/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXNzaWdubWVudC0yXEVtcGxveWVlTWFuYWdlbWVudFxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/assignment-2/EmployeeManagement/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXNzaWdubWVudC0yXEVtcGxveWVlTWFuYWdlbWVudFxWaWV3c1xIb21lXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/assignment-2/EmployeeManagement/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXNzaWdubWVudC0yXEVtcGxveWVlTWFuYWdlbWVudFxWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/assignment-2/EmployeeManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXNzaWdubWVudC0yXEVtcGxveWVlTWFuYWdlbWVudFxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/assignment-2/EmployeeManagement/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXNzaWdubWVudC0yXEVtcGxveWVlTWFuYWdlbWVudFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/assignment-2/EmployeeManagement/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXNzaWdubWVudC0yXEVtcGxveWVlTWFuYWdlbWVudFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/Views/Employee/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/assignment-2/EmployeeManagement/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXNzaWdubWVudC0yXEVtcGxveWVlTWFuYWdlbWVudFxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-mf9ytcc17b
+
+[C:/24NAG2219_U09/Assignments/8_C\#.NetWeb_Applications/day1/assignment-1/EmployeeManagement/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zfw5uihhvp
